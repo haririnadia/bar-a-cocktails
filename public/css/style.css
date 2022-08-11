@@ -1,0 +1,143 @@
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: rgba(2, 2, 2, 0.575);
+    margin-top: 25px;
+    padding: 10px;
+}
+
+
+body {
+    background: rgba(233, 177, 72, 0.603);
+    /*background-image: url('../images/background.jpg');*/
+    background-color: rgba(43, 43, 43, 0.76);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+.contentContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produit {
+    width: 30%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.493);
+    margin-bottom: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.produit:hover {
+    cursor: pointer;
+    background-color: rgba(71, 71, 71, 0.349);
+    transition: 0.6s;
+}
+
+.imageContainer, .titleContainer {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+}
+.produit a{
+    text-decoration: none;
+    color: black;
+}
+
+.imageMenu {
+    width: 120px;
+    height: 120px;
+}
+
+.imgBoisson {
+    background-image: url('../images/boisson.png');
+}
+
+.imgCocktail {
+    background-image: url('../images/cocktail.png');
+}
+
+.imgIngredient {
+    background-image: url('../images/ingredients.png');
+}
+
+.imgCommande {
+    background-image: url('../images/commande.png');
+}
+
+.imgUtensiles {
+    background-image: url('../images/utensiles.png');
+}
+
+.imgVerre {
+    background-image: url('../images/verre.png');
+}
+
+.imageContainer {
+    width: 100px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.insertContainer{
+    width: 60%;
+    margin: 0 auto;
+    background: rgba(106, 106, 106, 0.58);
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.informationEntite {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row-reverse ;
+}
+
+.buttonContainer button {
+    margin-right: 100px;
+}
+
+a.prin{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+}
+
+
+.tableContainer {
+    background-color: rgb(190, 190, 190);
+    margin: 100px;
+    margin-top: 30px;
+}
+
+td.td_buttons_actions{
+    width: 10px;
+}
+
+.retour {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.retour:hover{
+    cursor: pointer;
+    height: 52px;
+    width: 52px;
+    transition: 0.3s;
+}
